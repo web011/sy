@@ -1,0 +1,3 @@
+<!--pages/hot/hot.wxml-->
+<view class="hot-guanggao">广告区域</view>
+<my-sharing prop-list="{{list}}"></my-sharing>

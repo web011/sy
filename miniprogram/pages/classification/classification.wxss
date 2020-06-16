@@ -1,0 +1,48 @@
+/* pages/classification/classification.wxss */
+.tab{
+  height: 100%;
+}
+.title{
+  display:flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom:1rpx solid #ddd ;
+}
+.cur{
+  border-bottom: 5rpx solid rgb(12, 226, 83);
+}
+.btns{
+  flex:1;
+  text-align: center;
+}
+.cons>.btna{
+  display: flex;
+  height: 40rpx;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.btna>view{
+  padding: 20rpx 20rpx 10rpx 20rpx;
+  color: #666;
+  font-size: 30rpx;
+}
+
+.scroll-view_H{
+  white-space: nowrap;
+  height: 65rpx;
+  color: #666;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  
+}
+.scroll-view-item_H{
+  display: inline-block;
+  padding: 0rpx 20rpx 20rpx 20rpx;
+}
+.mar{margin-top: 10rpx;}
+.di{
+  display: block;
+}
+.dis{
+  display: none;
+}

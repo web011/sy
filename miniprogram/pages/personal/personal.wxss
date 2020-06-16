@@ -1,0 +1,52 @@
+/* pages/personal/personal.wxss */
+/* pages/profile/profile.wxss */
+/* 给头像设置成园的 */
+.personal{
+  background-color: rgba(40, 219, 31, 0.474);
+  height: 400rpx;
+  text-align: center;
+  position:   relative;
+  width: 100%;
+}
+.personal-img{
+  position: absolute;
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  overflow:hidden;
+  border-radius: 50%;
+  left: 50%;
+  /* 由于left 50%不是在中间，需要transform调试到中间 */
+  transform: translate(-50%,60rpx);
+}
+.personal-name{
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%,-20%);
+  color: #fff;
+}
+.personal-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.personal-bottom image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.personal-guank{
+  flex-direction: column;
+  display: flex;
+  width: 200rpx;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40rpx;
+  color: #666;
+  font-size: 30rpx;
+}
+.personal-guank>text{
+  margin-top: 20rpx;
+}

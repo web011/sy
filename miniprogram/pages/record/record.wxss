@@ -1,0 +1,56 @@
+/* pages/record/record.wxss */
+.record{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 20rpx;
+}
+.record-item{
+  display: flex;
+  justify-content: left; 
+}
+.record-item>image{
+  width: 400rpx;
+  height: 400rpx;
+}
+.record-item>.record-right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: #666;
+  font-weight: bold;
+}
+.record-item>.record-right>text{
+  margin-bottom: 30rpx;
+}
+.record-item>.record-right>.record-dianyming{
+  font-size: 50rpx;
+  width: 300rpx;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  font-weight: bold;
+}
+.record-item>.record-right>.record-h{
+  width: 300rpx;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.record-bottom{
+  color: #ddd;
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: 30rpx;
+}
+.record-gettime{
+  width: 100%;
+  font-size: 50rpx;
+  color: #ddd;
+  margin-bottom: 20rpx;
+}

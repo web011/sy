@@ -1,0 +1,37 @@
+<!--pages/personal/personal.wxml-->
+<view class="personal">
+  <view class="personal-img">
+    <!-- 获取用户头像 -->
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="personal-name">
+    <!-- 获取当前登陆用户的名称 -->
+    <open-data type="userNickName"></open-data>
+  </view>
+</view>
+<view class="personal-bottom">
+  <view class="personal-guank" bindtap="record">
+    <image src="/images/gk.png"></image>
+    <text>观看历史</text>
+  </view>
+  <view class="personal-guank" bindtap="collection">
+    <image src="/images/scs.png"></image>
+    <text>收藏</text>
+  </view>
+  <view class="personal-guank">
+    <image src="/images/yyy.png"></image>
+    <text>摇一摇</text>
+  </view>
+  <view class="personal-guank">
+    <image src="/images/sz.png"></image>
+    <text>设置</text>
+  </view>
+  <view class="personal-guank">
+    <image src="/images/bz.png"></image>
+    <text>帮助</text>
+  </view>
+  <view class="personal-guank">
+    <image src="/images/qp.png"></image>
+    <text>求片</text>
+  </view>
+</view>

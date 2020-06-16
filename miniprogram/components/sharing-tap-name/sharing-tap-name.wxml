@@ -1,0 +1,11 @@
+<!--pages/sharing/sharing.wxml-->
+<view class="sharing-item">
+  <view class="sharing-details" wx:for="{{propList}}" wx:key="index" bindtap="Sharing" data-id="{{item.id}}">
+    <image src="{{item.images.small?item.images.small:item.cover}}" data-id="{{item.id}}"></image>
+    <text class="{{item.casts[0].name?'sharing-bottom':''}}" data-id="{{item.id}}">{{item.casts[0].name}}</text>
+    <text class="sharing-xqing" data-id="{{item.id}}">{{item.title}}</text>
+    <text class="sharing-juqing" data-id="{{item.id}}">热门</text>
+  </view>
+  <!-- 这个是用来接收父组件传来的数据 -->
+  <!-- <slot></slot> -->
+</view>

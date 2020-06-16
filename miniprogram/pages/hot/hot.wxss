@@ -1,0 +1,8 @@
+/* pages/hot/hot.wxss */
+.hot-guanggao{
+  width: 100%;
+  height: 300rpx;
+  background-color: rgba(4, 2, 1, 0.253);
+  text-align: center;
+  line-height: 300rpx;
+}

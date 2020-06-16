@@ -1,0 +1,15 @@
+<!--pages/record/record.wxml-->
+<view class="record" wx:for="{{list}}" wx:key="index">
+<!-- 记录用户观看的时间 通过传参的发送 -->
+  <view class="record-gettime">{{item.tiem}}</view>
+  <view class="record-item">
+    <image src="{{item.imgs}}" bindtap="detail" data-id="{{item.id}}"></image>
+    <view class="record-right">
+      <text class="record-dianyming">{{item.title}}</text>
+      <text class="record-h">导演：{{item.directors}}</text>
+      <text class="record-h">演员：{{item.casts}}</text>
+      <text>上映时间：{{item.year}}</text>
+    </view>
+  </view>
+</view>
+<view class="record-bottom">没有更多内容</view>

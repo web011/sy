@@ -1,0 +1,29 @@
+<view class="tab" bindtap="Search">
+  <view class="title">
+    <view class="{{index==active?'btns cur' : 'btns'}}" wx:for="{{btns}}" wx:key="index" data-index="{{index}}" bindtap="clicks">{{item}}</view>
+  </view>
+  <view class="cons">
+    <view class="{{active==0?'di btna' : 'dis'}}">
+      <view wx:for="{{btna}}" wx:key="index" class="{{index==actives?'cur btna':'btna'}}" bindtap="clicka" data-index="{{index}}">{{item}}</view>
+      <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+        <view data-item="{{item}}" bindtap="detaillicks" data-index="{{index}}" class="{{index==detaillick?'cur scroll-view-item_H demo-text-1':'scroll-view-item_H demo-text-1'}}" id="{{'demo'+index}}" wx:for="{{detail}}" wx:key="index">
+          {{item}}
+        </view>
+      </scroll-view>
+      <scroll-view class="scroll-view_H mar" scroll-x="true" style="width: 100%">
+        <view data-item="{{item}}" bindtap="detailsclicks" data-index="{{index}}" class="{{index==detailsclick?'cur scroll-view-item_H demo-text-1':'scroll-view-item_H demo-text-1'}}" id="{{'demo'+index}}" wx:for="{{details}}" wx:key="index">
+          {{item}}
+        </view>
+      </scroll-view>
+      <scroll-view class="scroll-view_H mar" scroll-x="true" style="width: 100%">
+        <view data-item="{{item}}" bindtap="tiema" data-index="{{index}}" class="{{index==tiems?'cur scroll-view-item_H demo-text-1':'scroll-view-item_H demo-text-1'}}" id="{{'demo'+index}}" wx:for="{{tiem}}" wx:key="index">
+          {{item}}
+        </view>
+      </scroll-view>
+      <my-sharing prop-list="{{list}}"></my-sharing>
+    </view>
+    <view hidden="{{active!=1}}">电视剧</view>
+    <view hidden="{{active!=2}}">综艺</view>
+    <view hidden="{{active!=3}}">动漫</view>
+  </view>
+</view>

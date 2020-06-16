@@ -1,0 +1,63 @@
+/* pages/sharing/sharing.wxss */
+.sharing-item{
+  padding: 5rpx;
+  display: flex;
+  justify-content: left;
+  background-color: #ddd;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  padding-top: 10rpx;
+}
+.sharing-item>.sharing-details{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10rpx;
+  position: relative;
+  height: 300rpx;
+  width: 180rpx;
+  margin-bottom: 10rpx;
+  margin: 5rpx;
+}
+.sharing-item>.sharing-details>image{
+  width: 180rpx;
+  height: 220rpx;
+  position: relative;
+}
+.sharing-item>.sharing-details>.sharing-bottom{
+  font-size: 25rpx;
+  width: 180rpx;
+  height: 35rpx;
+  background-color: rgba(4, 2, 1, 0.474);
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 84rpx;
+  margin-left: 0;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 3rpx;
+  color: #fff;
+}
+.sharing-item>.sharing-details>.sharing-juqing{
+  border-radius: 5rpx;
+  display: inline-block;
+  width: 60rpx;
+  height: 30rpx;
+  font-size: 20rpx;
+  color: #666;
+  border: 1rpx solid #666;
+  text-align: center;
+  margin-top: 10rpx;
+}
+.sharing-item>.sharing-details>text{
+  margin-left: 20rpx;
+}
+.sharing-item>.sharing-details>.sharing-xqing{
+  font-size:30rpx; 
+  overflow:hidden;
+  height:35rpx;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}

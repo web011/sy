@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/details/details",
+    "pages/classification/classification",
+    "pages/hot/hot",
+    "pages/personal/personal",
+    "pages/record/record",
+    "pages/collection/collection"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "电影",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#d1d1d1",
+    "selectedColor": "#333333",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "最新",
+        "iconPath": "/images/zx.png",
+        "selectedIconPath": "/images/zx1.png"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "text": "分类",
+        "iconPath": "/images/fl.png",
+        "selectedIconPath": "/images/fl1.png"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "热门",
+        "iconPath": "/images/rm.png",
+        "selectedIconPath": "/images/rm1.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "/images/wd.png",
+        "selectedIconPath": "/images/wd1.png"
+      }
+  ]
+  }
+}

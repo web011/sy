@@ -1,0 +1,13 @@
+<!--pages/collection/collection.wxml-->
+<view class="collection">
+  <view class="collection-item" wx:for="{{list}}" wx:key="index" bindtap="detail">
+    <image src="{{item.imgs}}" data-id="{{item.id}}"></image>
+    <view class="collection-right">
+      <text class="collection-dianyming">{{item.title}}</text>
+      <text>导演：{{item.directors}}</text>
+      <text class="collection-yyuan">演员：{{item.casts}}</text>
+      <text>上映时间：{{item.year}}</text>
+    </view>
+  </view>
+  <view class="collection-bottom">没有更多内容</view>
+</view>
